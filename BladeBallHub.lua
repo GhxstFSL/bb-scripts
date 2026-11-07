@@ -527,7 +527,6 @@ Win.BackgroundColor3 = Color3.fromRGB(11, 11, 17)
 Win.BorderSizePixel  = 0
 Win.Active           = true
 Win.Draggable        = true
-Win.ClipDescendants  = true
 Win.Parent           = sg
 Instance.new("UICorner", Win).CornerRadius = UDim.new(0, 10)
 
